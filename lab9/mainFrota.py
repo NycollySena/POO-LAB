@@ -6,8 +6,9 @@ from moto import Moto
 
 class main ():
     
-    teste1: Veiculo
-    teste1 = Carro ("civic", "honda", 4, "carro", 4)
+    teste1: Veiculo #vinculação estatica ( caso coloque moto, por exemplo, o python não interrompe, é uma desvantagem do python)
+    teste1 = Carro ("civic", "honda", 4, "carro", 4) #vinculação dinamica: 
+    #o Python só vai decidir em tempo de execução qual método imprime() ou emite_som() usar — o da classe Carro, Moto ou Bicicleta
 
     teste2: Veiculo 
     teste2 = Moto ("Generico", "fabricante z", 2, "moto", 2)
@@ -19,6 +20,7 @@ class main ():
     teste4 = Carro ("Generico", "fabricante w", 4, "carro 2", 2)
 
     frota = Frota()
+    #quem decide qual versão do método será executada é o Python em tempo de execução.
 
     frota.adicionarVeiculo(teste1)
     frota.adicionarVeiculo(teste2)

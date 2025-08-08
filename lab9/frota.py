@@ -8,7 +8,7 @@ class Frota:
         self.__veiculos = []
  #1
     def adicionarVeiculo(self, veiculo):
-     if isinstance(veiculo, Veiculo):  # verifica se é um objeto da classe Veiculo ou herdeira dela
+     if isinstance(veiculo, Veiculo): #verifica se é um objeto da classe Veiculo ou herdeira dela, ele serve para evitar que você adicione algo que não seja um veículo
         self.__veiculos.append(veiculo)
      else:
         print("Erro: só é permitido adicionar objetos do tipo Veiculo.")
