@@ -36,37 +36,3 @@ class main ():
 
     teste1.getSaldo()
 
-
-
-
-    #  # Tentar sacar até 3 vezes
-    # MAX_ATTEMPTS = 3
-    # attempts = 0
-    # successful = True
-    # while not successful and attempts < MAX_ATTEMPTS:
-    #         try:
-    #             teste1.setDeposito(100)
-    #             successful = True
-    #             print("Depósito realizado. Saldo:", teste1.getSaldo())
-    #         except ValueError as e:
-    #             print("Erro no depósito:", e)
-    #             attempts += 1
-
-    # if not successful:
-    #         print("Não foi possível realizar o depósito após várias tentativas.")
-
-    # attempts = 0
-    # successful = False
-
-    # while not successful and attempts < MAX_ATTEMPTS:
-    #     try:
-    #         teste1.setSaque(60)
-    #         successful = True
-    #         print("Saque realizado. Saldo:", teste1.getSaldo())
-    #     except ValueError as e:
-    #         print("Erro no saque:", e)
-    #         attempts += 1
-
-    # if not successful:
-    #     print("Não foi possível realizar o saque após várias tentativas.")
-
