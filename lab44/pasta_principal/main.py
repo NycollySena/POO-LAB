@@ -1,7 +1,7 @@
 from randomTester import RandomTester    
 
 class main:
-    if __name__ == "__main__":
+    if __name__ == "__main__": #Execute apenas quando o arquivo for rodado diretamente
 
         tester = RandomTester() #criando objeto do tipo RandomTester
 

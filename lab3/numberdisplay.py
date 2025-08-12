@@ -12,7 +12,8 @@ class NumberDisplay ():
     
 
     def setValue (self, replacementValue):
-        self.__value = replacementValue
+        if (0 <= replacementValue < self.__limite):
+            self.__value = replacementValue
 
 
     def getDisplayValue (self):
